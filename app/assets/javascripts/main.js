@@ -1,0 +1,15 @@
+//= require jquery
+//= require popper.min
+//= require bootstrap.min
+//= require jquery.magnific-popup
+//= require owl.carousel
+//= require jquery.nice-select
+//= require slick
+//= require jquery.counterup
+//= require waypoints
+//= require contact
+//= require jquery.ajaxchimp
+//= require jquery.form
+//= require jquery.validate
+//= require mail_script
+//= require custom

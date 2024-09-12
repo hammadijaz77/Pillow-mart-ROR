@@ -1,0 +1,71 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ @import "bootstrap";
+
+// variable scss
+@import "sass/variables";
+
+// mixin scss
+@import "sass/mixins";
+@import "sass/extends";
+// default scss
+@import "sass/common";
+
+// button scss
+@import "sass/button";
+
+@import "sass/blog";
+@import "sass/single_blog";
+// body scss
+@import "sass/menu";
+@import "sass/banner";
+@import "sass/single_product";
+@import "sass/trending_items";
+@import "sass/client_review";
+@import "sass/feature_part";
+@import "sass/subscribe_part";
+@import "sass/product_list";
+
+@import "sass/our_offer";
+@import "sass/best_seller";
+@import "sass/client_logo";
+@import "sass/product";
+@import "sass/new_arrival";
+@import "sass/shipping_details";
+@import "sass/instagram_photo";
+@import "sass/confirmation_part";
+
+@import "sass/elements";
+@import "sass/blog_part";
+@import "sass/contact";
+@import "sass/about_us";
+
+// breadcrumb scss
+@import "sass/breadcrumb";
+
+@import "sass/footer";
+
+@import 'css/bootstrap.min';
+@import 'css/animate';
+@import 'css/owl.carousel.min';
+@import 'css/all';
+@import 'css/flaticon';
+@import 'css/font-awesome.min';
+@import 'css/themify-icons';
+@import 'css/magnific-popup';
+@import 'css/slick';
+@import 'css/style';
